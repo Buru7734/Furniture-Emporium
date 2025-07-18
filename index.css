@@ -22,6 +22,7 @@ header p {
 
 
 button {
+    transition: background-color 0.3s ease;
     background-color: #1f8322; /* Green */
     border: none;
     color: white;
@@ -60,3 +61,14 @@ hr {
 }
 
 h2 {font-size: 2em;}
+
+button:hover{
+    background-color: #145f1a; /* Darker green */
+}
+
+button:active {
+    background-color: #5d9061; /* Even darker green */
+}
+button:visited {
+    background-color: #687368; /* Green */
+}
